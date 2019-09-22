@@ -1,0 +1,18 @@
+
+#mindmap-editor {
+	transition: width 0.5s, top 0.5s, height 0.5s, left 0.5s;
+	position: fixed;
+	top: 50px;
+	left: 0%;
+	width: 100%;
+	height: calc(100% - 50px);
+	z-index: 1500;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 0;
+	box-sizing: border-box;
+}
+a[href$=".jm"] .thumbnail{
+ // background-image: url('../img/icon.svg')!important;
+}
+

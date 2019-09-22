@@ -1,0 +1,55 @@
+{ "translations": 
+  {
+    "editor.js" : "----------",
+    "An error occurred." : "An error occurred.",
+    "New MindMap" : "New MindMap",
+    "New MindMap.jm" : "New MindMap.jm",
+    "File Saved" : "File Saved",
+
+    "mindmap.js" : "----------",
+    "This file is not a valid mind map file." : "This file is not a valid mind map file.",
+    "The file format is invalid." : "The file format is invalid.",
+    "An error occurred during the export." : "An error occurred during the export.",
+    "You must enable edition mode." : "You must enable edition mode.",
+    "saving..." : "saving...",
+
+
+    "index.php" : "----------",
+    "Edit" : "Edit",
+    "Previous" : "Previous",
+    "Next" : "Next",
+    "Export" : "Export",
+    "Export jpg file." : "Export jpg file.",
+    "Export html file." : "Export html file.",
+    "Setting" : "Setting",
+    "Back" : "Back",
+    "Save" : "Save",
+    "Search" : "Search",
+    "Bubble" : "Bubble",
+    "Line" : "Line",
+    "Default bubbles color" : "Default bubbles color",
+    "Default lines color" : "Default lines color",
+    "Plain text editor" : "Plain text editor",
+    "Web site" : "Web site",
+
+    "fileHandling.php" : "----------",
+    "You can not open a folder." : "You can not open a folder.",
+    "This file is too big to be opened. Please download the file instead." : "This file is too big to be opened. Please download the file instead.",
+    "Cannot read the file." : "Cannot read the file.",
+    "Invalid file path supplied." : "Invalid file path supplied.",
+    "The file is locked." : "The file is locked.",
+    "An internal server error occurred." : "An internal server error occurred.",
+
+    "You can not write to a folder." : "You can not write to a folder.",
+    "Cannot save file as it has been modified since opening." : "Cannot save file as it has been modified since opening.",
+    "Could not write to file." : "Could not write to file.",
+    "Insufficient permissions" : "Insufficient permissions",
+    "File path not supplied" : "File path not supplied",
+    "File mtime not supplied" : "File mtime not supplied",
+    "Share not found" : "Share not found",
+    "You are not authorized to open this share" : "You are not authorized to open this share",
+    "This application enables Nextcloud users to open, save and edit text files in the web browser. If enabled, an entry called \"Text file\" in the \"New\" button menu at the top of the web browser appears. When clicked, a new text file opens in the browser and the file can be saved into the current Nextcloud directory. Further, when a text file is clicked in the web browser, it will be opened and editable. If the privileges allow, a user can also edit shared files and save these changes back into the web browser.\nMore information is available in the text editor documentation." : "This application enables Nextcloud users to open, save and edit text files in the web browser. If enabled, an entry called \"Text file\" in the \"New\" button menu at the top of the web browser appears. When clicked, a new text file opens in the browser and the file can be saved into the current Nextcloud directory. Further, when a text file is clicked in the web browser, it will be opened and editable. If the privileges allow, a user can also edit shared files and save these changes back into the web browser.\nMore information is available in the text editor documentation.",
+    "Invalid range request" : "Invalid range request"
+  
+  },"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

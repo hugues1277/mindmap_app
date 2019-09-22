@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<info>
+	<id>mindmap_app</id>
+	<name>MindMap</name>
+  <description>
+    <![CDATA[A mind map is a diagram used to visually organize information. A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas.
+    Mind maps can also be drawn by hand, either as "rough notes" during a lecture, meeting or planning session, for example, or as higher quality pictures when more time is available.]]>
+	</description>
+	<licence>AGPL</licence>
+	<author mail="fedwiiix@gmail.com">fedwiiix</author>
+	<version>0.0.1</version>
+  <category>files</category>
+	<category>office</category>
+	<shipped>true</shipped>
+	<default_enable/>
+  <bugs>https://github.com/fedwiiix</bugs>
+	<repository type="git"></repository>
+	<website></website>
+	<dependencies>
+		<nextcloud min-version="16" max-version="16" />
+	</dependencies>
+	<namespace>MindMap_App</namespace>
+  <repair-steps>
+		<install>
+			<step>OCA\MindMap_App\Migration\InstallStep</step>
+		</install>
+		<uninstall>
+			<step>OCA\MindMap_App\Migration\UninstallStep</step>
+		</uninstall>
+	</repair-steps>
+</info>
