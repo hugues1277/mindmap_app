@@ -16,6 +16,7 @@
   <bugs>https://github.com/fedwiiix</bugs>
 	<repository type="git"></repository>
 	<website></website>
+	<screenshot small-thumbnail="https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/1.png">https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/1.png</screenshot>
 	<dependencies>
 		<nextcloud min-version="16" max-version="16" />
 	</dependencies>
