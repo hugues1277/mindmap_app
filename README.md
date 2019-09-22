@@ -5,8 +5,8 @@ A mind map is a diagram used to visually organize information. A mind map is hie
 <br>
 Mind maps can also be drawn by hand, either as "rough notes" during a lecture, meeting or planning session, for example, or as higher quality pictures when more time is available.
 
-![Screenshot of Nextcloud Mindmap](https://raw.githubusercontent.com/fedwiiix/mindMap/master/img/screenshot/1.png)
-![Screenshot of Nextcloud Mindmap](https://raw.githubusercontent.com/fedwiiix/mindMap/master/img/screenshot/2.png)
+![Screenshot of Nextcloud Mindmap](https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/1.png)
+![Screenshot of Nextcloud Mindmap](https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/2.png)
 
 
 
