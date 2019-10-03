@@ -504,7 +504,14 @@ var EditorSetting = {
   
   init: function(){
     var self=this
-    $('#quitMenu, #codePreviewArea, #imagePreview').click(function(){ self.closeQuitMenu(); });
+    
+    $('#imagePreview').click(function(e){ 
+      if (e.target !== this){ return; } self.closeQuitMenu(); 
+    });
+    $('#codePreviewArea').click(function(e){ 
+      if (e.target !== this){ return; } self.closeQuitMenu(); 
+    });
+    $('#quitMenu').click(function(){ self.closeQuitMenu(); });
     $('#nav-bar button').click(function(){ self.setInitialPosition(); });
     $('#openColorMenu').click(function(){ self.openColorMenu(); });
     $('#openCodePreview').click(function(){ self.openCodePreview(); });

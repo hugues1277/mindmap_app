@@ -148,7 +148,11 @@ html, body {
 #map-editor-commands .icon{
   background-size: cover;
 }
-
+.save-icon{
+  background-image: url('../img/save.svg'); 
+  background-position: 10.5px;
+  background-size: 20px;
+}
 /**************************************************************/
 
 input[type="search"]{

@@ -14,7 +14,7 @@
 	<shipped>true</shipped>
 	<default_enable/>
   <bugs>https://github.com/fedwiiix</bugs>
-	<repository type="git"></repository>
+	<repository type="git">https://github.com/fedwiiix/mindmap_app</repository>
 	<website></website>
 	<screenshot small-thumbnail="https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/1.png">https://raw.githubusercontent.com/fedwiiix/mindmap_app/master/img/screenshot/1.png</screenshot>
 	<dependencies>
