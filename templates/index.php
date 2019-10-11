@@ -42,7 +42,7 @@
   <div id="nextAction" class="rond icon icon-confirm-white rond1" title="<?php echo p($l->t('Next')); ?>"></div>
   <div id="exportMap" class="rond icon icon-external-white rond2" title="<?php echo p($l->t('Export')); ?>"></div>
   <div id="openColorMenu" class="rond icon icon-settings-white rond3" title="<?php echo p($l->t('Setting')); ?>"></div>
-  <div id="saveMindMap" class="rond icon save-icon rond4 " title="<?php echo p($l->t('Save')); ?>"></div>
+  <div id="saveMindMap" class="rond icon icon-checkmark-white rond4 " title="<?php echo p($l->t('Save')); ?>"></div>
   <!--div class="rond icon color-icon rond5" title="Save"></div-->
 </div> 
 
