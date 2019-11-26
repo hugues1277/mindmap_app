@@ -39,13 +39,13 @@ var MindMap_App = {
      var sharingToken = '';
      if ($('#isPublic').val() && $('#mimetype').val() === 'application/jm') {
        sharingToken = $('#sharingToken').val();
-       url = OC.generateUrl('/apps/files_mindmap/public/{token}', {token: sharingToken});
+       url = OC.generateUrl('/apps/mindmap_app/public/{token}', {token: sharingToken});
      } else if ($('#isPublic').val()) {
        sharingToken = $('#sharingToken').val();
-       url = OC.generateUrl('/apps/files_mindmap/public/{token}?filename={filename}&dir={dir}', { token: sharingToken, filename: _self.file.name, dir: _self.file.dir})
+       url = OC.generateUrl('/apps/mindmap_app/public/{token}?filename={filename}&dir={dir}', { token: sharingToken, filename: _self.file.name, dir: _self.file.dir})
      } else {
        url = OC.generateUrl('/apps/mindmap_app/ajax/loadfile?filename={filename}&dir={dir}', {filename: _self.file.name, dir: _self.file.dir});
-     }
+		 }
      $.get(url).done(function(e) {
         _self.file.writeable = e.writeable, 
         _self.file.mime = e.mime, 
